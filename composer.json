@@ -1,0 +1,50 @@
+{
+    "name": "tadah-dev/parsedown-extra",
+    "description": "Parsedown for Laravel, but with ParsedownExtra",
+    "keywords": [
+        "parsedown",
+        "laravel",
+        "parsedownextra"
+    ],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/tadah-dev/parsedown-extra/issues",
+        "source": "https://github.com/tadah-dev/parsedown-extra"
+    },
+    "authors": [
+        {
+            "name": "Eduardo Agostini",
+            "email": "edu.agostini@gmail.com"
+        },
+        {
+            "name": "Tadah",
+            "email": "inbox@tadah.rocks"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.3",
+        "erusev/parsedown-extra": "^0.8"
+    },
+    "autoload": {
+        "files": [
+            "src/Support/helpers.php"
+        ],
+        "psr-4": {
+            "ParsedownExtra\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ParsedownExtra\\Providers\\ParsedownServiceProvider"
+            ]
+        }
+    }
+}
