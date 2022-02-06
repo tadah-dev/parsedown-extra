@@ -33,11 +33,6 @@
             "ParsedownExtra\\": "src/"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "Tests\\": "tests/"
-        }
-    },
     "minimum-stability": "dev",
     "prefer-stable": true,
     "extra": {
