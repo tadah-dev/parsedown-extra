@@ -11,7 +11,7 @@ use ParsedownExtra;
  * Class ParsedownServiceProvider
  * @package App\Providers
  */
-class ParsedownExtraServiceProvider extends ServiceProvider
+class ParsedownServiceProvider extends ServiceProvider
 {
     /**
      * @return void
